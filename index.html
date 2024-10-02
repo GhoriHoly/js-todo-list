@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>HOLYS TODO</title>
+</head>
+<body>
+    <main>
+        <div class="flex-container">
+
+            <h1>HOLYS TODO</h1>
+            <!--Place for adding each todo item inside this-->
+            <div id="checkboxes"></div>
+
+            <!--Adding new items-->
+            <div>
+                <input type="text" alt="Lägg till ny todo." id="new_item">
+                <input type="button" value="+" onclick="add_new_item()">
+            </div>
+            <div id="notification"></div>
+        
+
+        </div>
+        
+    </main>
+    
+<script src="script.js"></script>
+</body>
+</html>

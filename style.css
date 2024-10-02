@@ -1,0 +1,62 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    vertical-align: baseline;
+    padding:20px;
+   
+  }
+
+.flex-container div{
+    padding: 5px;
+
+}
+
+.flex-container div label{
+    vertical-align: middle;
+    
+}
+
+.flex-container input[type="text"]{
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 10px;
+
+}
+
+.flex-container input[type="checkbox"]{
+    padding:10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.flex-container input[type="button"]{
+    vertical-align: middle;
+    font-size: larger;
+    font-weight: bolder
+}
+
+.flex-container .each_todo{
+    width: 240px;
+    text-align: left;
+    flex-direction: column;
+    
+  
+
+}
+
+
+  
